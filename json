@@ -1,0 +1,1 @@
+{"workflows":{"default":{"plan":{"steps":[{"run":"terraform init -input=false -no-color"},{"run":"terraform plan -input=false -no-color"}]},"apply":{"steps":[{"run":"terraform apply -no-color"}]}}},"repos":[{"id":"/.*/","allowed_overrides":["workflow"],"allow_custom_workflows":true}]}
